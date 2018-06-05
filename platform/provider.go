@@ -240,6 +240,7 @@ func NewProvider(logger boshlog.Logger, dirProvider boshdirs.Provider, statsColl
 			"dummy":    dummy,
 			"windows":  windows,
 			"opensuse": opensuse,
+			"sles":     opensuse,
 		},
 	}
 }
